@@ -1,0 +1,22 @@
+.container {
+  max-width: 631px;
+  position: relative;
+}
+.input {
+  background-color: rgba(90, 92, 102, 1);
+  padding: 15px 25px;
+  margin-right: 25px;
+  width: 100%;
+  border: none;
+  color: rgba(178, 183, 191, 1);
+  font-size: 14px;
+}
+.input:focus {
+  outline: none;
+}
+svg {
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+}
